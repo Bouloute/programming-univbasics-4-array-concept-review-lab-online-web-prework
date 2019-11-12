@@ -2,11 +2,11 @@ def find_element_index(array, value_to_find)
   index = 0 
   
   while (index < array.length) do
-    #if (array[index] === value_to_find) ? return index : index += 1
+    (array[index] === value_to_find) ? return index : index += 1
     #return index if (array[index] === value_to_find) ? index += 1 
-    if (array[index] === value_to_find) 
-      return index
-    end
+    # if (array[index] === value_to_find) 
+    #  return index
+    #end
     index += 1
   end
 end
